@@ -1,0 +1,39 @@
+* {
+  font-family: "Grandstander", cursive;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  padding: 8px;
+}
+header img {
+  border-radius: 60%;
+  width: 150px;
+}
+
+header h1 {
+  color: aliceblue;
+}
+
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+  gap: 5px;
+  background-color: #efefef;
+}
+
+section img {
+  max-width: 100%;
+  border-radius: 5px;
+  transition-duration: 1s;
+}
+section img:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
